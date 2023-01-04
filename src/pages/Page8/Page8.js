@@ -180,7 +180,7 @@ const Page8 = () => {
           </div>
         </div>
       </div>
-      <img src={book_now_bg} className="waiting_list" />
+      <img src={book_now_bg} alt="bgimg" className="waiting_list" />
     </div>
   );
 };

@@ -4,13 +4,7 @@ import logo from "../../images/logo.webp";
 
 const Navbar = () => {
 
-  const logout = () => {
-    sessionStorage.clear();
-    localStorage.clear();
  
-    window.location.reload(false);
-  };
-
   return (
     <>
       <div className="navbar_container">
